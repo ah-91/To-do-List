@@ -1,5 +1,6 @@
 $("ul").on("click","li",function(){
 
+
 	$(this).toggleClass("completed");
 
 
@@ -59,6 +60,22 @@ $("input[type='text']").keypress(function(event){
 $("#toggle").on("click" ,function(){
 
 	$("#form").toggle();
+
+
+
+});
+
+$("#expand").click(function(){
+
+	console.log("clicked on li");
+
+});
+
+$("#app1").on("click", function(){
+
+	/*console.log("clciked on APP1");*/
+
+	$("#container").toggle(1000);
 
 
 
