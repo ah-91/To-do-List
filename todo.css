@@ -1,7 +1,15 @@
 
 body{
-
+		/*
 		background-image: url("beautiful-background-13.jpg");
+		*/
+
+
+
+background: #3a6186; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 	}
 
 
@@ -24,6 +32,23 @@ body{
 
 }
 
+#div1{
+
+	
+	margin: 100px 50px 100px auto;
+	width: 65px;
+
+
+}
+
+#menu{
+	color: red;
+	width: 500px;
+	margin: 200px auto;
+
+
+}
+
 
 h1{
 
@@ -38,6 +63,14 @@ h1{
 .fa-plus{
 
 	float: right;
+}
+
+.fa-angle-right
+
+{
+
+	float:right;
+	line-height: 40px;
 }
 
 ul{
